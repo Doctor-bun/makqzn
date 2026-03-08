@@ -1,0 +1,17 @@
+﻿name: stocklab
+channels:
+  - defaults
+dependencies:
+  - python=3.11
+  - pip
+  - pip:
+      - streamlit
+      - yfinance
+      - pandas
+      - numpy
+      - plotly
+      - akshare
+      - pyinstaller
+      - requests
+      - charset-normalizer
+      - chardet<6
